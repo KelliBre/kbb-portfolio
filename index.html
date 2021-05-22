@@ -20,7 +20,9 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200;500;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/fb7634f518.js" crossorigin="anonymous"></script>
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -29,53 +31,64 @@
 
   <header>
     <div class="content-wrapper">
-      <h1> KayBee</h1>
+      <div class="logo">
+        <img src="./img/code.png" alt="Code Logo"/>
+        <h1>Kelli Brecunier</h1>
+      </div>
         <div class="header-divider"></div>
         <nav class="nav">
             <ul class="nav-menu">
-                <li><a href="projects/index.html" target="_blank">Projects</a></li>
-                <li><a href="about/index.html" target="_blank">About</a></li>
+                <li class="button"><a href="projects/index.html" target="_blank">Portfolio</a></li>
+                <li class="button"><a href="about/index.html" target="_blank">About</a></li>
             </ul>
         </nav>
 
     </div>
 </header>
 <main>
-    <section class="hero-area">
-      <div class="content-wrapper">
-          <h1> Hi, I'm Kelli Brecunier.</h1>
-          <h2>Devloper, Designer, and Creative Thinker.</h2>
+  <section class="hero-area">
+    <div class="content-wrapper">
+      <div class="hero-area-text-box">
+        <h1> Web Developer <br>Designer<br> Creative Thinker</h1>
+        <p>Talofofo, Guam</p>
       </div>
+    </div>
+  </section>
+  <section class="features">
+      <div class="content-wrapper">
+          <div class="features-items">
+            <article>
+              <img src="./img/html.png" alt="HTML icon"/>
+              <p class="features-item-description">Semantic HTML5. Ensuring content easy to read and accessible.</p>
+            </article>
+            <article>
+              <img src="./img/layout.png" alt="Design icon"/>
+              <p class="features-item-description">Accurate conversions from PSD mock up into a webpage.</p>
+            </article>
+            <article>
+              <img src="./img/css.png" alt="CSS icon"/>
+              <p class="features-item-description"> CSS that is easy to read and build on. CSS lean and fast to load.</p>
+            </article>
+            <article>
+              <img src="./img/javascript.png" alt="JS icon"/>
+              <p class="features-item-description"> Javascript that is easy to read and build on. CSS lean and fast to load.</p>
+            </article>
+            <article>
+              <img src="./img/php.png" alt="PHP Icon "/>
+              <p class="features-item-description"> PHP that is easy to read and build on. CSS lean and fast to load.</p>
+            </article>
+            <article>
+              <img src="./img/psd.png" alt="Photoshop Icon"/>
+              <p class="features-item-description"> Photoshop that is easy to read and build on. CSS lean and fast to load.</p>
+            </article>
+        </div><!--feature-item end-->
+      </div><!--COntent wrapper end-->
     </section>
-    <div class="dashed-divider"></div>
-    <section class="features">
-        <div class="content-wrapper">
-            <div class="features-items">
-              <article>
-                <p class="fontawesome-icon">
-                    <i class="fab fa-html5"></i>
-                </p>
-                <p class="features-item-description">Clean, well-formatted, semantic HTML5 by hand to make sure that the content is easy to read, easy to collaborate, trouble-shoot and accessible.</p>
-              </article>
-              <article>
-                <p class="fontawesome-icon">
-                    <i class="fab fa-css3-alt"></i>
-                </p>
-                <p class="features-item-description"> CSS that is easy to read and build on. I focus on keeping my CSS lean and fast to load, and I make it a habit to stay up to date on current best practices.</p>
-              </article>
-              <article>
-                <p class="fontawesome-icon">
-                    <i class="fas fa-file-code"></i>
-                </p>
-                <p class="features-item-description">You can trust me to take a designer's PSD and quickly & accurately convert it into a webpage that is pixel-perfect match.</p>
-              </article>
-            </div><!--feature-item end-->
-        </div><!--COntent wrapper end-->
-      </section>
-    <div class="dashed-divider"></div>
     <section class="projects">
+      <div class="projects-bar">
+        <h2>Featured Projects</h2>
+      </div>
         <div class="content-wrapper">
-          <h2>Featured Projects</h2>
           <div class="project-items">
             <article class="project-item">
               <img src="./img/jubilee-thumbnail.png" alt="Jubliee Austen Project">
@@ -83,9 +96,9 @@
               <p>HTML5 + CSS3 Website</p>
             </article>
             <article>
-              <img src="./img/unplugged-thumbnail.png" alt="Unplugged Retreat">
+              <img src="./img/unplugged-thumbnail-d3.png" alt="Unplugged Retreat">
               <h3>Unplugged Retreat Website</h3>
-              <p>Responsive HTML5 + CSS3 Website from PSD</p>
+              <p>HTML5 + CSS3 Website from PSD</p>
             </article>
             <article>
               <img src="./img/rogue-pickings-thumbnail.png" alt="Rogue Pickings">
